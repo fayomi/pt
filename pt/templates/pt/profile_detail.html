@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <img src="{{ user.userprofile.image.url }}" width="240" alt="No Image">
+    <h1>Welcome to your profile: {{user.username }} </h1>
+    <h2>You are {{ user.userprofile.age }}</h2>
+    <h3>Your live in {{ user.userprofile.location }}</h3>
+
+  </body>
+</html>
